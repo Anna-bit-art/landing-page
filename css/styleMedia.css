@@ -1,0 +1,287 @@
+
+@media (max-width: 767px) {
+	/* стили для xs-устройств */
+	.menu{
+		height: fit-content;
+		margin-right: 0;
+		margin-left: 0;
+		position: relative;
+	}
+	.dropdown{
+
+		display: inline-block;
+	}
+	.dropdown:hover .dropdown-menuList{
+		display: flex;
+	}
+	.dropdown-label{
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 22px;
+		color: #17bed2;
+		cursor: pointer;
+	}
+	.dropdown-menuList{
+		display: none;
+		position: absolute;
+		right: 100%;
+		top: 1.8em;
+	}
+	div.menu ul {
+		margin: 0;
+	}
+	div.menu ul > li{
+		flex: 1;
+	}
+	div.menu ul li a {
+		display: block;
+		color: #fff;
+		font-size: 14px;
+		text-align: right;
+		width: 100px;
+		padding: 5px 0 10px 0;
+	}
+
+	div.logo img {
+		display: inline-block;
+		 padding: 0;
+		 margin-top: 0;
+	}
+	div.header h1 {
+		font-size: 32px;
+		margin-bottom: 0;
+		margin-top: 250px;
+	}
+	div.header p {
+		font-size: 24px;
+	}
+	div.last-products h2 {
+		margin-top: 80px;
+		margin-bottom: 0;
+	}
+	div.last-products p {
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+	div.last {
+		margin-top: 0;
+	}
+	div.last a.one {
+		font-size: 30px;
+	}
+	div.last span.three {
+		font-size: 14px;
+	}
+	div.last .col-lg-4 p{
+		margin: 0 0 0 20px;
+		padding: 0 10px 0 0;
+	}
+	div.img {
+		margin-top: 30px;
+	}
+	div.art {
+		margin: 30px auto;
+	}
+	div.displaying div h2 {
+		font-size: 44px;
+	}
+	div.displaying div p {
+		font-size: 18px;
+		width: 90%;
+		margin: 10px auto;
+	}
+	div.starter {
+		padding: 30px 0;
+	}
+	div.starter div.price {
+		padding: 10px 10px;
+		margin-top: 0;
+	}
+	div.starter div.professional {
+		padding: 10px 10px;
+		margin-top: 0;
+		border: 1px solid #17bed2;
+	}
+	div.container-fluid {
+		margin: 0;
+		padding: 20px 0;
+	}
+	div.customer {
+		padding: 10px 10px;
+	}
+	div.customer p {
+		font-size: 16px;
+		padding-left: 10px;
+	}
+	div.footer {
+		padding: 10px 10px;
+	}
+	div.footer ul li {
+		display: inline-flex;
+		padding: 5px;
+	}
+	div.footer ul li a {
+		font-size: 14px;
+	}
+	div.footer-bottom {
+		height: auto;
+		padding: 10px;
+	}
+	div.footer-bottom img {
+		margin-top: 0;
+		margin-left: 0;
+	}
+	div.footer-bottom p {
+		margin-top: 0;
+		margin-right: 0;
+		font-size: 14px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* стили для sm-устройств */
+	.menu {
+        margin: 0;
+    }
+    div.menu ul li a {
+        padding: 10px;
+    }
+
+    div.menu ul {
+        margin: 35px 0 0 0;
+    }
+
+    div.header h1 {
+        font-size: 60px;
+        margin-top: 120px;
+    }
+
+    a.button {
+        margin: 50px auto 150px auto;
+    }
+	div.last {
+		margin-top: 0;
+	}
+
+	div.starter {
+		padding: 30px 0;
+	}
+
+	div.starter div.price p, div.starter div.professional p {
+		margin-top: 0;
+	}
+
+	div.professional div.icon-box span {
+		margin-top: 0;
+	}
+
+	div.starter div.price {
+		padding: 20px 40px;
+		margin-top: 0;
+	}
+
+	div.starter div.professional {
+		padding: 20px 40px;
+		margin-top: 0;
+		border: 1px solid #17bed2;
+	}
+
+	div.starter div.price li, div.starter div.professional li {
+		font-size: 15px;
+	}
+
+	div.starter div.price a.button, div.starter div.professional a.button {
+		margin: 15px 0 0;
+	}
+
+	div.starter div.price h3, div.starter div.professional h3 {
+		margin-top: 10px;
+	}
+
+	div.starter div.price ol, div.starter div.professional ol {
+		margin: 5px 0 0;
+	}
+
+	div.customer {
+		padding: 30px 0;
+	}
+
+	div.footer {
+		margin: 0 auto;
+		padding: 30px 50px;
+	}
+
+	div.footer ul li {
+		display: inline-block;
+	}
+
+	div.footer-bottom img {
+		margin-left: 0;
+	}
+
+	div.footer-bottom p {
+		margin-right: 0;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    /* стили для md-устройств */
+	div.starter {
+		padding: 50px;
+	}
+	div.last-products h2 {
+		margin-top: 100px;
+	}
+
+	div.last a.one {
+		font-size: 18px;
+	}
+
+	div.last span.three {
+		font-size: 12px;
+	}
+
+	div.last a.one {
+		font-size: 20px;
+	}
+
+	div.last span.three {
+		margin-left: 18px;
+	}
+
+	div.last-products p {
+		font-size: 16px;
+	}
+	div.last .col-lg-4 p {
+		margin-top: 10px;
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
